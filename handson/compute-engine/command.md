@@ -147,13 +147,7 @@ echo "Hello from port 8080" | sudo nc -l -p 8080
 
 ---
 
-## 🟩 8. Windows VM Password Setup (GCP Console Only)
-
-(No terminal commands — done through console.)
-
----
-
-## 🟩 9. Service Accounts + IAM Testing
+## 🟩 8 Service Accounts + IAM Testing
 
 ### Test Storage access (expected fail / pass)
 ```bash
@@ -162,7 +156,7 @@ gsutil ls
 
 ---
 
-## 🟩 10. Metadata Server
+## 🟩 9. Metadata Server
 
 ### Access metadata root
 ```bash
@@ -184,7 +178,7 @@ curl -H "Metadata-Flavor: Google" \
 
 ---
 
-## 🟩 11. Create VM From Custom Image (Console)
+## 🟩 10. Create VM From Custom Image (Console)
 
 (No terminal commands — done through console.)
 
