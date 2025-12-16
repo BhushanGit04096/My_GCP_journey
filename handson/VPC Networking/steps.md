@@ -29,8 +29,8 @@ Custom VPC provides full control over IP addressing and is preferred in producti
 2. Open `custom-vpc`
 3. Click **Add subnet**
 4. Configuration:
-   - Name: `subnet-asia-south1`
-   - Region: `asia-south1`
+   - Name: `subnet-us-centrak1-lowa`
+   - Region: `us-centrak1-lowa`
    - IP range: `10.10.0.0/24`
    - Private Google Access: Enabled
 5. Click **Add**
