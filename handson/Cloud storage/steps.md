@@ -113,8 +113,7 @@ This document contains step-by-step instructions for performing hands-on operati
 1. Open **Cloud Shell**
 2. Run the following command:
 
-```bash
-gsutil signurl -d 10m ~/.ssh/google_compute_engine.pub gs://my-regional-bucket/test.txt
+
 
 
 ## 7. Transfer Jobs (Hands-on)
@@ -170,4 +169,3 @@ Create a transfer job to copy objects from one Cloud Storage bucket to another.
 1. Open the created transfer job
 2. Verify the job status is **Completed**
 3. Confirm objects are available in the destination bucket
-
