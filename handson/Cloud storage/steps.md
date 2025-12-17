@@ -109,12 +109,12 @@ This document contains step-by-step instructions for performing hands-on operati
 ---
 
 ## 6. Generate Signed URLs
-
+A Signed URL is a temporary, secure link that lets someone access a private object in Cloud Storage without giving them IAM permissions.
 1. Open **Cloud Shell**
 2. Run the following command:
 
-
-
+"bash
+gsutil signurl -d 10m ~/.ssh/google_compute_engine.pub gs://my-regional-bucket/test.txt"
 
 ## 7. Transfer Jobs (Hands-on)
 
