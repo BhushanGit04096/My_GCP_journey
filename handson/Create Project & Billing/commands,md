@@ -1,0 +1,33 @@
+# Create Project & Billing – GCP Commands
+
+Login to Google Cloud CLI:
+
+gcloud auth login
+
+Verify authenticated account:
+gcloud auth list
+
+Set the newly created project as the active project:
+gcloud config set project gcp-handson-project
+
+Verify the active project:
+gcloud config get-value project
+
+List all projects available to the account to confirm project creation:
+gcloud projects list
+
+List all available billing accounts:
+gcloud billing accounts list
+
+Check whether billing is enabled for the project:
+gcloud billing projects describe gcp-handson-project
+  
+Expected output should show:
+billingEnabled: true
+
+If billing is not linked, link the billing account manually (requires Billing Admin role):
+gcloud billing projects link gcp-handson-project --billing-account=XXXXXX-XXXXXX-XXXXXX
+
+
+Run a compute command to confirm billing and API access:
+gcloud compute regions list
